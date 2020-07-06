@@ -41,7 +41,7 @@ def run(request):
 		
 		
 		# ================ Camera =================
-		elif action == 'camready':
+		if action == 'camready':
 			cam.ready()
 		elif action == "camleft":
 			cam.turn_left(40)
